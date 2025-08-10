@@ -89,7 +89,7 @@ def send_whatsapp_via_voice():
         say("That phone number doesn't seem valid. Please try again.")
 
 if __name__ == "__main__":
-    say("Jarvis AI")
+    say("Your Personal Assistant AI")
     while True:
         query = takeCommand()
 
@@ -201,4 +201,5 @@ if __name__ == "__main__":
             if f"open {app[0]}" in query.lower():
                 say(f"Opening {app[0]} sir..")
                 os.startfile(app[1])
+
 
